@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [User NopCommerce]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Run on Chrome(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nocomerce.user.Level_02_Apply_BasePage_III">
+      <class name="com.nocomerce.user.Level_03_Page_Object">
         <methods>
           <include name="User_01_Register_Invalid_Email"/>
-          <include name="User_01_Register_Empty_Data"/>
-          <include name="afterClass"/>
-          <include name="User_01_Register_Success"/>
           <include name="User_01_Regpister_Exiting_Email"/>
+          <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="User_01_Register_Success"/>
         </methods>
-      </class> <!-- com.nocomerce.user.Level_02_Apply_BasePage_III -->
+      </class> <!-- com.nocomerce.user.Level_03_Page_Object -->
     </classes>
-  </test> <!-- Run on Chrome(failed) -->
-</suite> <!-- Failed suite [User NopCommerce] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
