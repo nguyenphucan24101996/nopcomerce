@@ -6,10 +6,8 @@
       <class name="com.nocomerce.user.Level_03_Page_Object">
         <methods>
           <include name="User_01_Register_Invalid_Email"/>
-          <include name="User_01_Regpister_Exiting_Email"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="User_01_Register_Success"/>
         </methods>
       </class> <!-- com.nocomerce.user.Level_03_Page_Object -->
     </classes>

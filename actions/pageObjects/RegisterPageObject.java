@@ -48,7 +48,7 @@ public class RegisterPageObject extends BasePage {
 
 	}
 	public void inputToEmailTextbox(String email) {
-		waitForElementInvisible(driver, RegisterPageUI.EMAIL_TEXTBOX);
+		waitForElementVisible(driver, RegisterPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, RegisterPageUI.EMAIL_TEXTBOX, email);
 	}
 
@@ -58,7 +58,7 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public void inputToPasswordTextbox(String password) {
-		waitForElementInvisible(driver, RegisterPageUI.PASSWORD_TEXTBOX);
+		waitForElementVisible(driver, RegisterPageUI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, RegisterPageUI.PASSWORD_TEXTBOX, password);
 		// TODO Auto-generated method stub
 
@@ -83,7 +83,7 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public void clickToLogoutButton() {
-		waitForElementVisible(driver, RegisterPageUI.LOGOUT_LINK);
+		waitForElementClickAble(driver, RegisterPageUI.LOGOUT_LINK);
 		clickToElement(driver, RegisterPageUI.LOGOUT_LINK);
 	}
 
