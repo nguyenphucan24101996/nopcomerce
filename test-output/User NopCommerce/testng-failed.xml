@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [User NopCommerce]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Run on Chrome(failed)">
+  <test thread-count="5" name="Run on Edge(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.nocomerce.user.Level_02_Apply_BasePage_III">
+      <class name="com.nocomerce.user.Level_04_Multiple_Browser">
         <methods>
-          <include name="User_01_Register_Invalid_Email"/>
-          <include name="User_01_Register_Empty_Data"/>
-          <include name="afterClass"/>
-          <include name="User_01_Register_Success"/>
-          <include name="User_01_Regpister_Exiting_Email"/>
           <include name="beforeClass"/>
+          <include name="User_01_Login_Invalid_Email"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.nocomerce.user.Level_02_Apply_BasePage_III -->
+      </class> <!-- com.nocomerce.user.Level_04_Multiple_Browser -->
     </classes>
-  </test> <!-- Run on Chrome(failed) -->
+  </test> <!-- Run on Edge(failed) -->
 </suite> <!-- Failed suite [User NopCommerce] -->
