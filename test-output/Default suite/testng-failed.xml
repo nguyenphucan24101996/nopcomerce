@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nocomerce.user.Level_03_Page_Object">
+      <class name="com.nocomerce.user.Level_03_Page_Object_02_Login">
         <methods>
-          <include name="User_01_Register_Invalid_Email"/>
+          <include name="User_01_Login_Success"/>
+          <include name="User_01_Login_NotExiting_Email"/>
+          <include name="User_01_Login_Invalid_Email"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.nocomerce.user.Level_03_Page_Object -->
+      </class> <!-- com.nocomerce.user.Level_03_Page_Object_02_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -17,4 +17,10 @@ public HomePageObject(WebDriver driver) {
 		clickToElement(driver, HomePageUI.REGISTER_LINK);
  		
 	}
+
+	public void clickToLoginLink() {
+		waitForElementClickAble(driver, HomePageUI.LOGIN_LINK);
+		clickToElement(driver, HomePageUI.LOGIN_LINK);
+		
+	}
 }

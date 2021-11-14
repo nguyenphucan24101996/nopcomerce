@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-10T16:30:44Z" name="Default suite" finished-at="2021-11-10T16:30:53Z" duration-ms="9322">
+  <suite started-at="2021-11-14T15:26:25Z" name="Default suite" finished-at="2021-11-14T15:26:43Z" duration-ms="18361">
     <groups>
     </groups>
-    <test started-at="2021-11-10T16:30:44Z" name="Default test" finished-at="2021-11-10T16:30:53Z" duration-ms="9322">
-      <class name="com.nocomerce.user.Level_03_Page_Object">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object@12a94400]" started-at="2021-11-10T16:30:44Z" name="beforeClass" finished-at="2021-11-10T16:30:51Z" duration-ms="6868" status="PASS">
+    <test started-at="2021-11-14T15:26:25Z" name="Default test" finished-at="2021-11-14T15:26:43Z" duration-ms="18361">
+      <class name="com.nocomerce.user.Level_03_Page_Object_02_Login">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object_02_Login@4fbe37eb]" started-at="2021-11-14T15:26:25Z" name="beforeClass" finished-at="2021-11-14T15:26:37Z" duration-ms="12188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Register_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object@12a94400]" started-at="2021-11-10T16:30:51Z" name="User_01_Register_Invalid_Email" finished-at="2021-11-10T16:30:53Z" duration-ms="2430" status="PASS">
+        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object_02_Login@4fbe37eb]" started-at="2021-11-14T15:26:37Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-14T15:26:38Z" duration-ms="1042" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- User_01_Register_Invalid_Email -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object@12a94400]" started-at="2021-11-10T16:30:53Z" name="afterClass" finished-at="2021-11-10T16:30:53Z" duration-ms="0" status="PASS">
+        </test-method> <!-- User_01_Login_Invalid_Email -->
+        <test-method signature="User_01_Login_NotExiting_Email()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object_02_Login@4fbe37eb]" started-at="2021-11-14T15:26:38Z" name="User_01_Login_NotExiting_Email" finished-at="2021-11-14T15:26:40Z" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_01_Login_NotExiting_Email -->
+        <test-method signature="User_01_Login_Success()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object_02_Login@4fbe37eb]" started-at="2021-11-14T15:26:40Z" name="User_01_Login_Success" finished-at="2021-11-14T15:26:43Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_01_Login_Success -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_03_Page_Object_02_Login@4fbe37eb]" started-at="2021-11-14T15:26:43Z" name="afterClass" finished-at="2021-11-14T15:26:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.nocomerce.user.Level_03_Page_Object -->
+      </class> <!-- com.nocomerce.user.Level_03_Page_Object_02_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

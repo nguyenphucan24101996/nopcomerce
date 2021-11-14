@@ -16,7 +16,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_03_Page_Object {
+public class Level_03_Page_Object_01_Register {
 	// Cái này apply kế thừa để khỏi cần khởi tạo đối tượng
 
 	private WebDriver driver;
@@ -54,11 +54,11 @@ public class Level_03_Page_Object {
 
 	@Test
 	public void User_01_Register_Empty_Data() {
-		System.out.println("Register Page - Step 01: Click to register link");
+		System.out.println("Register Page 01 - Step 01: Click to register link");
 		homePage.clickToRegisterLink();
-		System.out.println("Register Page - Step 02: Click to register button");
+		System.out.println("Register Page 01 - Step 02: Click to register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 03: Verify error message displayed");
+		System.out.println("Register Page 01 - Step 03: Verify error message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtFirstnameTextbox(), "First name is required.");
 		Assert.assertEquals(registerPage.getErrorMessageAtLastNameTextbox(), "Last name is required.");
 		Assert.assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Email is required.");
@@ -69,17 +69,17 @@ public class Level_03_Page_Object {
 
 	@Test
 	public void User_01_Register_Invalid_Email() {
-		System.out.println("Register Page - Step 01: Click to register link");
+		System.out.println("Register 02 - Step 01: Click to register link");
 		homePage.clickToRegisterLink();
-		System.out.println("Register Page - Step 02: Input to required field");
+		System.out.println("Register 02 - Step 02: Input to required field");
 		registerPage.inputToFirstNameTextbox(firstName);
 		registerPage.inputToLastNameTextbox(lastName);
 		registerPage.inputToEmailTextbox(emailAddresserror);
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(confirmpassword);
-		System.out.println("Register Page - Step 03: Click register button");
+		System.out.println("Register 02 - Step 03: Click register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 04: Verify msg error  displayed");
+		System.out.println("Register 02 - Step 04: Verify msg error  displayed");
 		Assert.assertEquals(registerPage.getEmailErrorMessage(), "Wrong email");
 
 	}
@@ -87,21 +87,21 @@ public class Level_03_Page_Object {
 	@Test
 	public void User_01_Register_Success() {
 		
-		System.out.println("Register Page - Step 01: Click to register link");
+		System.out.println("Register Page 03 - Step 01: Click to register link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Step 2: Input to required field");
+		System.out.println("Register Page 03  - Step 2: Input to required field");
 		registerPage.inputToFirstNameTextbox(firstName);
 		registerPage.inputToLastNameTextbox(lastName);
 		registerPage.inputToEmailTextbox(emailAddress);
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(confirmpassword);
-		System.out.println("Register Page - Step 3: Click register button");
+		System.out.println("Register Page 03  - Step 3: Click register button");
 		registerPage.clickToRegisterButton();
-		System.out.println("Register Page - Step 4: Verify msg error displayed");
+		System.out.println("Register Page 03  - Step 4: Verify msg error displayed");
 		Assert.assertEquals(registerPage.getMessageRegisterSuccess(), "Your registration completed");
 
-		System.out.println("Register Page - Step 5: Click logout");
+		System.out.println("Register Page 03  - Step 5: Click logout");
 		registerPage.clickToLogoutButton();
 
 
@@ -111,7 +111,7 @@ public class Level_03_Page_Object {
 	@Test
 	public void User_01_Regpister_Exiting_Email() {
 
-		System.out.println("Register Page - Step 01: Click to register link");
+		System.out.println("Register Page 04 - Step 01: Click to register link");
 		homePage.clickToRegisterLink();
 
 		System.out.println("Register Page - Step 2: Input to required field");
