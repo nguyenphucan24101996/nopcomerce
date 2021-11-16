@@ -41,6 +41,14 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		//System.setProperty("webdriver.gecko.driver", projectPath + ".\\browserDrivers\\geckodriver.exe");
 		// driver = new ChromeDriver();
 		// Khởi tạo
+<<<<<<< HEAD
+=======
+		driverTestClass.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+		driverTestClass.get("https://demo.nopcommerce.com");
+		
+		
+		
+>>>>>>> branch 'master' of https://github.com/nguyenphucan24101996/nopcomerce.git
 		firstName = "An";
 		lastName = "Nguyen";
 		day = "10";
