@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-14T17:38:41Z" name="User NopCommerce" finished-at="2021-11-14T17:39:47Z" duration-ms="65548">
+  <suite started-at="2021-11-16T17:23:47Z" name="User NopCommerce" finished-at="2021-11-16T17:24:39Z" duration-ms="51334">
     <groups>
     </groups>
-    <test started-at="2021-11-14T17:38:41Z" name="Run on Firefox" finished-at="2021-11-14T17:38:59Z" duration-ms="17442">
+    <test started-at="2021-11-16T17:23:47Z" name="Run on  Firefox" finished-at="2021-11-16T17:24:02Z" duration-ms="14552">
       <class name="com.nocomerce.user.Level_04_Multiple_Browser">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@ba2f4ec]" started-at="2021-11-14T17:38:41Z" name="beforeClass" finished-at="2021-11-14T17:38:58Z" duration-ms="16391" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@8297b3a]" started-at="2021-11-16T17:23:47Z" name="beforeClass" finished-at="2021-11-16T17:24:00Z" duration-ms="12686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@ba2f4ec]" started-at="2021-11-14T17:38:58Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-14T17:38:59Z" duration-ms="1028" status="PASS">
+        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@8297b3a]" started-at="2021-11-16T17:24:00Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-16T17:24:02Z" duration-ms="1834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Login_Invalid_Email -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@ba2f4ec]" started-at="2021-11-14T17:38:59Z" name="afterClass" finished-at="2021-11-14T17:38:59Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@8297b3a]" started-at="2021-11-16T17:24:02Z" name="afterClass" finished-at="2021-11-16T17:24:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nocomerce.user.Level_04_Multiple_Browser -->
-    </test> <!-- Run on Firefox -->
-    <test started-at="2021-11-14T17:38:59Z" name="Run on Chrome" finished-at="2021-11-14T17:39:32Z" duration-ms="33082">
+    </test> <!-- Run on  Firefox -->
+    <test started-at="2021-11-16T17:24:02Z" name="Run on Chrome" finished-at="2021-11-16T17:24:12Z" duration-ms="9952">
       <class name="com.nocomerce.user.Level_04_Multiple_Browser">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@2002fc1d]" started-at="2021-11-14T17:38:59Z" name="beforeClass" finished-at="2021-11-14T17:39:30Z" duration-ms="31249" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@79d8407f]" started-at="2021-11-16T17:24:02Z" name="beforeClass" finished-at="2021-11-16T17:24:11Z" duration-ms="8944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@2002fc1d]" started-at="2021-11-14T17:39:30Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-14T17:39:32Z" duration-ms="1830" status="PASS">
+        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@79d8407f]" started-at="2021-11-16T17:24:11Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-16T17:24:12Z" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Login_Invalid_Email -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@2002fc1d]" started-at="2021-11-14T17:39:32Z" name="afterClass" finished-at="2021-11-14T17:39:32Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@79d8407f]" started-at="2021-11-16T17:24:12Z" name="afterClass" finished-at="2021-11-16T17:24:12Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nocomerce.user.Level_04_Multiple_Browser -->
     </test> <!-- Run on Chrome -->
-    <test started-at="2021-11-14T17:39:32Z" name="Run on Edge" finished-at="2021-11-14T17:39:47Z" duration-ms="14928">
+    <test started-at="2021-11-16T17:24:12Z" name="Run on Edge" finished-at="2021-11-16T17:24:24Z" duration-ms="12708">
       <class name="com.nocomerce.user.Level_04_Multiple_Browser">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@43c1b556]" started-at="2021-11-14T17:39:32Z" name="beforeClass" finished-at="2021-11-14T17:39:46Z" duration-ms="13875" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@394df057]" started-at="2021-11-16T17:24:12Z" name="beforeClass" finished-at="2021-11-16T17:24:23Z" duration-ms="11082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@43c1b556]" started-at="2021-11-14T17:39:46Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-14T17:39:47Z" duration-ms="1049" status="PASS">
+        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@394df057]" started-at="2021-11-16T17:24:23Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-16T17:24:24Z" duration-ms="1622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Login_Invalid_Email -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@43c1b556]" started-at="2021-11-14T17:39:47Z" name="afterClass" finished-at="2021-11-14T17:39:47Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@394df057]" started-at="2021-11-16T17:24:24Z" name="afterClass" finished-at="2021-11-16T17:24:24Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nocomerce.user.Level_04_Multiple_Browser -->
     </test> <!-- Run on Edge -->
+    <test started-at="2021-11-16T17:24:24Z" name="Run on Coc Coc" finished-at="2021-11-16T17:24:39Z" duration-ms="14077">
+      <class name="com.nocomerce.user.Level_04_Multiple_Browser">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@1190200a]" started-at="2021-11-16T17:24:24Z" name="beforeClass" finished-at="2021-11-16T17:24:37Z" duration-ms="12383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coccoc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="User_01_Login_Invalid_Email()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@1190200a]" started-at="2021-11-16T17:24:37Z" name="User_01_Login_Invalid_Email" finished-at="2021-11-16T17:24:39Z" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_01_Login_Invalid_Email -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nocomerce.user.Level_04_Multiple_Browser@1190200a]" started-at="2021-11-16T17:24:39Z" name="afterClass" finished-at="2021-11-16T17:24:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nocomerce.user.Level_04_Multiple_Browser -->
+    </test> <!-- Run on Coc Coc -->
   </suite> <!-- User NopCommerce -->
 </testng-results>
