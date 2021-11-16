@@ -41,12 +41,6 @@ public class Level_04_Multiple_Browser extends BaseTest {
 		//System.setProperty("webdriver.gecko.driver", projectPath + ".\\browserDrivers\\geckodriver.exe");
 		// driver = new ChromeDriver();
 		// Khởi tạo
-		driverTestClass = new FirefoxDriver();
-		driverTestClass.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-		driverTestClass.get("https://demo.nopcommerce.com");
-		
-		
-		
 		firstName = "An";
 		lastName = "Nguyen";
 		day = "10";
